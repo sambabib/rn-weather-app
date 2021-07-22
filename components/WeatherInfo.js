@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
   textPrimary: {
     fontSize: 40,
     color: PRIMARY_COLOR,
+    fontWeight: '700'
   },
 
   textSecondary: {
@@ -38,6 +39,8 @@ const styles = StyleSheet.create({
   },
 
   weatherDescription: {
+    fontSize: 14,
+    fontWeight: '700',
     textTransform: 'capitalize',
   },
 
